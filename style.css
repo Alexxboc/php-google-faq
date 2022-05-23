@@ -4,15 +4,56 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
 }
 
-h2 {
+h2:not(.header_top h2) {
     margin-top: 5rem;
 }
 
 p {
     margin: 2rem 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 1rem;
+    border-bottom: 1px solid #5f6368;
+}
+
+.header_top {
+    display: flex;
+    margin-bottom: 0.75rem;
+}
+
+.logo img {
+    width: 90px;
+    margin-right: 0.25rem;
+}
+
+.header_top .privacy,
+.navbar a {
+    color: #5f6368;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    margin-right: 1rem;
+}
+
+.nabar a {
+    font-size: 15px;
 }
