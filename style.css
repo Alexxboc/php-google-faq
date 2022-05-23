@@ -1,3 +1,5 @@
+/* Common rules */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,21 +11,16 @@ img {
     max-width: 100%;
 }
 
+
+/* Utilities */
+
 .container {
     max-width: 1000px;
     margin: auto;
 }
 
-h2:not(.header_top h2) {
-    margin-top: 5rem;
-    color: #3c4043;
-}
 
-p {
-    margin: 2rem 0;
-    color: rgba(0, 0, 0, .87);
-    font-size: 14px;
-}
+/* Header */
 
 a {
     text-decoration: none;
@@ -31,7 +28,7 @@ a {
 
 header {
     height: 90px;
-    border-bottom: 1px solid #5f6368;
+    border-bottom: 1px solid rgba(151, 151, 151, .5);
     padding-top: 1rem;
     padding-left: 1rem;
 }
@@ -65,12 +62,26 @@ header {
 }
 
 .navbar a {
-    padding-bottom: 0.45rem;
+    padding-bottom: 0.4rem;
 }
 
 .active {
     color: #3367d6 !important;
-    border-bottom: 4px solid #3367d6;
+    border-bottom: 3px solid #3367d6;
+}
+
+
+/* Main */
+
+h2:not(.header_top h2) {
+    margin-top: 5rem;
+    color: #3c4043;
+}
+
+p {
+    margin: 2rem 0;
+    color: rgba(0, 0, 0, .87);
+    font-size: 14px;
 }
 
 .container a {
@@ -90,4 +101,6 @@ ol {
 
 h3 {
     color: rgba(0, 0, 0, .87);
+    font-size: 18px;
+    font-weight: 500;
 }
