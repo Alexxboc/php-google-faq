@@ -75,6 +75,9 @@ $faqs = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google faq</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <!-- Font awsome Libraries -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <!-- Css style sheet link -->
@@ -84,26 +87,26 @@ $faqs = [
 <body>
 
     <header class="site_header">
-       <div class="header_top">
-           <div class="logo">
-           <img src="    https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Logo Google">
-           </div>
-           <!-- /.logo -->
-           <div class="privacy">
-             <h2>Privacy e Termini</h2>  
-           </div>
-           <!-- /.privacy -->
-       </div>
-       <!-- /.header_top -->
-       <div class="navbar">
-           <ul>
-               <li><a href="#">Introduzione</a></li>
-               <li><a href="#">Norme sulla privacy</a></li>
-               <li><a href="#">Termini di servizio</a></li>
-               <li><a href="#">Tecnologie</a></li>
-               <li><a href="#">Domande frequenti</a></li>
-           </ul>
-       </div>
+        <div class="header_top">
+            <div class="logo">
+                <img src="    https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="Logo Google">
+            </div>
+            <!-- /.logo -->
+            <div class="privacy">
+                <h2>Privacy e Termini</h2>
+            </div>
+            <!-- /.privacy -->
+        </div>
+        <!-- /.header_top -->
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Introduzione</a></li>
+                <li><a href="#">Norme sulla privacy</a></li>
+                <li><a href="#">Termini di servizio</a></li>
+                <li><a href="#">Tecnologie</a></li>
+                <li><a href="#" class="active">Domande frequenti</a></li>
+            </ul>
+        </div>
     </header>
     <!-- /.site_header -->
 
